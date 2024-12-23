@@ -1,0 +1,10 @@
+<h2>Sales Forecast</h2>
+{% if forecast %}
+    <ul>
+        {% for data in forecast %}
+            <li>{{ data.date }}: {{ data.predicted_sales }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No forecast data available.</p>
+{% endif %}

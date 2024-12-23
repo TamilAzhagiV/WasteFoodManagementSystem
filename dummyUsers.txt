@@ -1,0 +1,8 @@
+Admin User:
+    username: tamil
+    email:tamilspace09@gmail.com
+    password: salessystem66
+
+Staff User:
+    username: shyam
+    password: salessystem66
